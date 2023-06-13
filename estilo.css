@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#1DB954 ; 
+    height: 150px;
+    display: flex;
+    font-family: 'inter', sans-serif;
+  
+}
+
+header img{
+    height: 100px;
+    width: 130px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+nav{
+    height: 50px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 800px;
+    margin: right 200px; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    padding: 15px 30px ;
+    margin-left:20px ;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+    font-weight: 700;
+    border-radius: 25px;
+}
+nav ul li a:hover{
+    background-color: white;
+
+}
+
+#biografia h1, #discografia h1, #imagens h1  {
+    font-size: 40px;
+    font-family: 'inter', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#biografia p, #discografia p, #imagens p  {
+    font-family: 'inter', sans-serif;
+}
+
+#discografia img {
+    height: 500px;
+    width: 600px;
+}
+
+#imagens .coluna2 img {
+    height: 400px;
+    width: 600px;
+}
+
+
+.colunas {
+    display: flex;
+    justify-content: center;
+}
+.coluna1 {
+    width: 50%;
+    height: 500px;
+    padding: 50px;
+
+}
+.coluna1 p {
+    font-size: 20px;
+}
+.coluna2 {
+    width: 50%;
+    height: 500px;
+}
+.coluna2 img {
+    width: 80%;
+}
+.coluna1 img{
+    width: 50%;
+}
+
+
+
+button{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(45deg , #1DB954 , black);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button i{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+   
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+
+footer{
+    height: 100px;
+    background-color: #1DB954;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
